@@ -45,3 +45,9 @@ To replicate this analysis or apply the methodology to similar datasets, ensure 
 
 ```bash
 pip install pandas numpy scikit-learn
+```
+Run this command to generate model:
+
+```bash
+python model_prepartion.ipynb
+```
