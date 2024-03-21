@@ -1,6 +1,6 @@
 # Image Recognition Task Execution Times in Mobile Edge Computing
 
-## University of Pristina
+## At the University of Pristina
 - **Faculty**: Electrical and Computer Engineering
 - **Level**: Master's Program
 - **Course**: Machine Learning
@@ -8,15 +8,15 @@
 
 ---
 
-This project conducts a comprehensive analysis of execution times for image recognition tasks offloaded to different edge servers, including MacBook Pro models, a Raspberry Pi, and a Virtual Machine (VM). The primary objective is to evaluate the performance and efficiency of mobile edge computing environments in processing image recognition tasks. The dataset and Python code used for this analysis are part of an experimental study aimed at benchmarking the execution times across various hardware configurations.
+This project undertakes a comprehensive analysis of execution times for image recognition tasks offloaded to various edge servers, including MacBook Pro models, a Raspberry Pi, and a Virtual Machine (VM). The aim is to evaluate the performance and efficiency of mobile edge computing environments in handling image recognition tasks. The dataset and Python code utilized in this analysis are integral to an experimental study designed to benchmark execution times across diverse hardware configurations.
 
 ## Dataset Overview
 
-The datasets capture the execution times (in seconds) for an image recognition task performed on different machines/edge servers. Each dataset comprises two columns:
-- **Local Time**: The timestamp when the task execution occurred.
-- **Execution Time**: The total time taken to complete the image recognition task.
+The datasets detail the execution times (in seconds) for an image recognition task performed on different machines/edge servers. Each dataset includes two columns:
+- **Local Time**: The timestamp at which the task execution occurred.
+- **Execution Time**: The total duration taken to complete the image recognition task.
 
-The tasks were executed using the `imageai.Prediction` machine learning library. The "Turnaround Time" (TAT) includes the duration from when the image is transferred to the edge server until the image recognition result is received back at the mobile edge node.
+The tasks were executed using the `imageai.Prediction` machine learning library. The "Turnaround Time" (TAT) encompasses the period from when the image is transferred to the edge server until the image recognition result is received back at the mobile edge node.
 
 ### Edge Servers Utilized
 - **MacBookPro1**
@@ -29,25 +29,38 @@ The tasks were executed using the `imageai.Prediction` machine learning library.
 - **ColorSpace**: 1
 - **Dimensions**: 720 x 405 pixels
 
-## Phase I
+## Phase I: Data Analysis and Model Development
 
-The analysis encompasses data preprocessing, dataset combination, feature extraction, and the construction of a Random Forest Regressor model to understand the factors influencing execution times. 
+The initial phase of the analysis involves data preprocessing, dataset combination, feature extraction, and constructing a Random Forest Regressor model to decipher the factors influencing execution times.
 
 ### Key Steps
-1. **Preprocessing**: This includes imputing missing values, handling outliers, and extracting time-based features.
-2. **Feature Engineering**: Extracting features such as the hour and day of the week from the timestamps.
-3. **Model Training**: Employing a RandomForestRegressor to predict execution times.
-4. **Evaluation**: The model's performance is assessed using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R2 Score.
+1. **Preprocessing**: This step involves imputing missing values, handling outliers, and extracting time-based features.
+2. **Feature Engineering**: Features such as the hour and day of the week are extracted from the timestamps.
+3. **Model Training**: A RandomForestRegressor is employed to predict execution times.
+4. **Evaluation**: The model's performance is gauged using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and the R2 Score.
 
 ## Usage
 
-To replicate this analysis or apply the methodology to similar datasets, ensure the required libraries are installed:
+To replicate this analysis or apply the methodology to similar datasets, ensure the following libraries are installed:
 
 ```bash
 pip install pandas numpy scikit-learn
 ```
-Run this command to generate model:
+
+To initiate the model preparation and training process, execute:
 
 ```bash
-python model_prepartion.ipynb
+python model_preparation.ipynb
 ```
+
+## Further Analysis and Machine Learning Models
+
+To expand on the analysis, several machine learning models can be leveraged:
+
+For Execution Time Prediction and Server Performance Analysis: Regression models like Linear Regression, Random Forest, and Gradient Boosting can be highly effective. These models help in understanding the factors affecting execution times and evaluating server performance.
+
+For Task Location Optimization and Load Forecasting: Time Series Analysis models (e.g., ARIMA, SARIMA) and Neural Networks can offer deep insights, especially when dealing with chronological data and predicting future trends.
+
+Exploratory Data Analysis: Techniques like Clustering and Dimensionality Reduction can unveil patterns, trends, or correlations, aiding in optimizing edge computing operations.
+
+Selecting the right model involves considering the specific goal, the nature of the data, and the complexity of the relationships it contains. Fine-tuning and validation are crucial steps to ensure accuracy and reliability.
