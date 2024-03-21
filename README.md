@@ -57,10 +57,6 @@ python model_preparation.ipynb
 
 To expand on the analysis, several machine learning models can be leveraged:
 
-For Execution Time Prediction and Server Performance Analysis: Regression models like Linear Regression, Random Forest, and Gradient Boosting can be highly effective. These models help in understanding the factors affecting execution times and evaluating server performance.
-
-For Task Location Optimization and Load Forecasting: Time Series Analysis models (e.g., ARIMA, SARIMA) and Neural Networks can offer deep insights, especially when dealing with chronological data and predicting future trends.
-
-Exploratory Data Analysis: Techniques like Clustering and Dimensionality Reduction can unveil patterns, trends, or correlations, aiding in optimizing edge computing operations.
-
-Selecting the right model involves considering the specific goal, the nature of the data, and the complexity of the relationships it contains. Fine-tuning and validation are crucial steps to ensure accuracy and reliability.
+1. **For Execution Time Prediction and Server Performance Analysis**
+2. **For Task Location Optimization and Load Forecasting**
+3. **Exploratory Data Analysis**
