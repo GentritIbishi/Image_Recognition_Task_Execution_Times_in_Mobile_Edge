@@ -24,6 +24,8 @@ The tasks were executed using the `imageai.Prediction` machine learning library.
 - **Raspberry Pi**
 - **Virtual Machine (VM)**
 
+![Edge Servers Informations](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/blob/master/assets/server_information.png)
+
 ### Image Specifications
 - **Format**: JPEG
 - **ColorSpace**: 1
