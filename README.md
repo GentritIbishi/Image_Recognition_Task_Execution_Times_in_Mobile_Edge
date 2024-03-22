@@ -56,6 +56,9 @@ To initiate the model preparation and training process, execute:
 ```bash
 python model_preparation.ipynb
 ```
+## Evaluation Results after Model Preparation
+
+![Evaluation Results](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/blob/master/assets/evaluation_results.png)
 
 ## Further Analysis and Machine Learning Models
 
