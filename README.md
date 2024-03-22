@@ -12,6 +12,8 @@ This project undertakes a comprehensive analysis of execution times for image re
 
 ## Dataset Overview
 
+Image Recognition Task Execution Times in Mobile Edge Computing (https://archive.ics.uci.edu/dataset/859/image+recognition+task+execution+times+in+mobile+edge+computing)
+
 The datasets detail the execution times (in seconds) for an image recognition task performed on different machines/edge servers. Four datasets with up to 1K lines, each dataset includes two columns:
 - **Local Time**: The timestamp at which the task execution occurred.
 - **Execution Time**: The total duration taken to complete the image recognition task.
@@ -24,12 +26,14 @@ The tasks were executed using the `imageai.Prediction` machine learning library.
 - **Raspberry Pi**
 - **Virtual Machine (VM)**
 
+![Edge Servers Informations](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/blob/master/assets/server_information.png)
+
 ### Image Specifications
 - **Format**: JPEG
 - **ColorSpace**: 1
 - **Dimensions**: 720 x 405 pixels
 
-## Phase I: Data Analysis and Model Development
+## Phase I: Data Analysis and Model Preparation
 
 The initial phase of the analysis involves data preprocessing, dataset combination, feature extraction, and constructing a Random Forest Regressor model to decipher the factors influencing execution times.
 
