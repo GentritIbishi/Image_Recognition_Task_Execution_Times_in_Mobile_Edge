@@ -31,7 +31,7 @@ The tasks were executed using the `imageai.Prediction` machine learning library.
 - **ColorSpace**: 1
 - **Dimensions**: 720 x 405 pixels
 
-## Phase I: Data Analysis and Model Development
+## Phase I: Data Analysis and Model Preparation
 
 The initial phase of the analysis involves data preprocessing, dataset combination, feature extraction, and constructing a Random Forest Regressor model to decipher the factors influencing execution times.
 
