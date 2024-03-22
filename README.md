@@ -12,7 +12,7 @@ This project undertakes a comprehensive analysis of execution times for image re
 
 ## Dataset Overview
 
-The datasets detail the execution times (in seconds) for an image recognition task performed on different machines/edge servers. Each dataset includes two columns:
+The datasets detail the execution times (in seconds) for an image recognition task performed on different machines/edge servers. Four datasets with up to 1K lines, each dataset includes two columns:
 - **Local Time**: The timestamp at which the task execution occurred.
 - **Execution Time**: The total duration taken to complete the image recognition task.
 
