@@ -77,7 +77,7 @@ To initiate the model preparation and training process, execute:
 python model_preparation.ipynb
 ```
 
-## Further Analysis and Machine Learning Models
+## Further Analysis
 
 To expand on the analysis, several machine learning models can be leveraged:
 
