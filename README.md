@@ -66,11 +66,14 @@ The initial phase of the analysis involves data preprocessing, dataset combinati
 During training, the model learns patterns on the data related to the target variable. It is therefore essential to analyze and compare the performance of the model against other algorithms to determine if further additional optimizations are needed. Different splits of test and training data will be analyzed to evaluate performance using two methods:
 
 ### Regression
- Through MSE and R2 Score metrics.
+Through MSE and R2 Score metrics.
+ 
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/488969f2-21dd-471f-aace-44ada09242f7)
 
 ### Classification
- Through Accuracy, F1-score, Recall and Precision metrics.
+Through Accuracy, F1-score, Recall and Precision metrics.
 
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/f3f8ba8d-118d-4073-963b-aa09ccecf955)
 
 ## Usage
 
