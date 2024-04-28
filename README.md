@@ -198,8 +198,8 @@ pip install pandas numpy scikit-learn
 To initiate the model preparation and training process, execute:
 
 ```bash
-python model_preparation.ipynb
-python trainingModelRegressionAlgorithms.ipynb
-python trainingModelClassificationAlgorithms.ipynb
+python model_preparation.ipynb --> To see how model is preparing by doing preprocessing steps removing outliers by IQR method, impute missing value with median.
+python trainingModelRegressionAlgorithms.ipynb --> To see how is performing Regression Model in a couple of algorithms to predict time excetion.
+python trainingModelClassificationAlgorithms.ipynb --> To see how is performing Classification Model in a couple of algorithms to predict time excetion.
 ```
 
