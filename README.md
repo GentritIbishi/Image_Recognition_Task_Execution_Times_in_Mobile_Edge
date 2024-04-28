@@ -8,8 +8,6 @@
 - **Assistant**: PhD. Candidate Mërgim HOTI 
 - **Student**: Gentrit IBISHI
 
----
-
 This project undertakes a comprehensive analysis of execution times for image recognition tasks offloaded to various edge servers, including MacBook Pro models, a Raspberry Pi, and a Virtual Machine (VM). The aim is to evaluate the performance and efficiency of mobile edge computing environments in handling image recognition tasks. The dataset and Python code utilized in this analysis are integral to an experimental study designed to benchmark execution times across diverse hardware configurations.
 
 ## Dataset Overview
