@@ -21,12 +21,6 @@ This project undertakes a comprehensive analysis of execution times for image re
 - **Dataset description:** The datasets detail the execution times (in seconds) for an image recognition task performed on different machines/edge servers.
 The tasks were executed using the `imageai.Prediction` machine learning library. The "Turnaround Time" (TAT) encompasses the period from when the image is transferred to the edge server until the image recognition result is received back at the mobile edge node.
 
-### Edge Servers Utilized
-- **MacBookPro1**
-- **MacBookPro2**
-- **Raspberry Pi**
-- **Virtual Machine (VM)**
-
 ## Phase I: Data Analysis and Model Preparation
 
 The initial phase of the analysis involves data preprocessing, dataset combination, feature extraction, and constructing a Random Forest Regressor model to decipher the factors influencing execution times.
