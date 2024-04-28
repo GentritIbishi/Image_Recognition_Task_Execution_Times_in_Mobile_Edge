@@ -52,7 +52,11 @@ The initial phase of the analysis involves data preprocessing, dataset combinati
 
 3. **Feature Engineering**: Features such as the hour and day of the week are extracted from the timestamps.
 4. **Model Training**: A RandomForestRegressor is employed to predict execution times.
-5. **Evaluation**: The model's performance is gauged using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and the R2 Score.
+     ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/d5363420-7ab2-490c-bcbd-3f60136b3d05)
+
+     ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/afc5474b-8ce3-4067-a891-f28d91e68250)
+
+6. **Evaluation**: The model's performance is gauged using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and the R2 Score.
 
 ## Usage
 
