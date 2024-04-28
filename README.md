@@ -4,7 +4,9 @@
 - **Faculty**: Electrical and Computer Engineering
 - **Level**: Master's Program
 - **Course**: Machine Learning
-- **Author**: Gentrit Ibishi
+- **Professor**: Prof. Dr. Lule AHMEDI
+- **Assistant**: PhD. Candidate Mërgim HOTI 
+- **Student**: Gentrit IBISHI
 
 ---
 
