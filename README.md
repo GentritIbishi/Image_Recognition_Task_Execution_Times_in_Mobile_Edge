@@ -44,12 +44,11 @@ The initial phase of the analysis involves data preprocessing, dataset combinati
 
      ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/75657075-23bb-4adc-9210-e6659cd0d496)
 
-     ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/e4ff13f5-fa39-4d19-947c-050a2f36c171)
-
      ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/851b88f8-3622-44ca-a204-b57c2c143959)
 
      ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/0717b61f-c0fc-446f-b575-bb72ff31e51e)
 
+     ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/35aa1777-866d-45e5-9c50-544664ecf0f5)
 
 3. **Feature Engineering**: Features such as the hour and day of the week are extracted from the timestamps.
 4. **Model Training**: A RandomForestRegressor is employed to predict execution times.
