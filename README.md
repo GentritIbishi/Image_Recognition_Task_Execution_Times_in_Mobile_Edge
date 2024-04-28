@@ -67,13 +67,13 @@ During training, the model learns patterns on the data related to the target var
 
 ### Regression
 Through MSE and R2 Score metrics.
-The types of algorithms we will analyze:
+The types of algorithms we will analyze Linear Regression, Random Forest Regressor and Ridge Regression.
  
 ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/488969f2-21dd-471f-aace-44ada09242f7)
 
 ### Classification
 Through Accuracy, F1-score, Recall and Precision metrics.
-The types of algorithms we will analyze:
+The types of algorithms we will analyze Logistic Regression, Decision Tree, Random Forest, SVM, KNN and Naive Bayes.
 
 ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/f3f8ba8d-118d-4073-963b-aa09ccecf955)
 
