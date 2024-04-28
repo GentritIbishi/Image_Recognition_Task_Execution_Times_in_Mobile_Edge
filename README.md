@@ -58,6 +58,8 @@ The initial phase of the analysis involves data preprocessing, dataset combinati
      ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/afc5474b-8ce3-4067-a891-f28d91e68250)
 
 6. **Evaluation**: The model's performance is gauged using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and the R2 Score.
+   
+   ![Evaluation Results](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/blob/master/assets/evaluation_results.png)
 
 ## Usage
 
@@ -72,14 +74,9 @@ To initiate the model preparation and training process, execute:
 ```bash
 python model_preparation.ipynb
 ```
-## Evaluation Results after Model Preparation
-
-![Evaluation Results](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/blob/master/assets/evaluation_results.png)
 
 ## Further Analysis and Machine Learning Models
 
 To expand on the analysis, several machine learning models can be leveraged:
 
 1. **For Execution Time Prediction and Server Performance Analysis**
-2. **For Task Location Optimization and Load Forecasting**
-3. **Exploratory Data Analysis**
