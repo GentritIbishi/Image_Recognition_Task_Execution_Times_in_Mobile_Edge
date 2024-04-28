@@ -1,4 +1,4 @@
-![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/f4eb142e-7c6d-4f32-989b-a856550c7a1d)# Image Recognition Task Execution Times in Mobile Edge Computing
+# Image Recognition Task Execution Times in Mobile Edge Computing
 
 ## At the University of Pristina
 - **Faculty**: Electrical and Computer Engineering
