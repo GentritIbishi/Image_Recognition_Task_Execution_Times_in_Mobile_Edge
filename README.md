@@ -41,6 +41,7 @@ The initial phase of the analysis involves data preprocessing, dataset combinati
 
 ### Key Steps
 1. **Preprocessing**: This step involves imputing missing values, handling outliers, and extracting time-based features.
+2. 
      ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/75657075-23bb-4adc-9210-e6659cd0d496)
 
      ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/e4ff13f5-fa39-4d19-947c-050a2f36c171)
