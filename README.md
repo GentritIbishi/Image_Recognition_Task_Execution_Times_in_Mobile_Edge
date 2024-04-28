@@ -16,10 +16,8 @@ This project undertakes a comprehensive analysis of execution times for image re
 - **Dataset link:** (https://archive.ics.uci.edu/dataset/859/image+recognition+task+execution+times+in+mobile+edge+computing)
 - **Dataset length:** 4 csv files with 1000 lines of rows.
 - **Dataset columns:** Local Time, Execution Time
-`
-Total datasets lines before preprocessing: 4000
-Total datasets lines after preprocessing: around 3759 based on Classification and Regression
-`
+- **Total datasets lines before preprocessing:** 4000 rows
+- **Total datasets lines after preprocessing:** Around 3759 rows based on Classification and Regression
 - **Dataset description:** The datasets detail the execution times (in seconds) for an image recognition task performed on different machines/edge servers.
 The tasks were executed using the `imageai.Prediction` machine learning library. The "Turnaround Time" (TAT) encompasses the period from when the image is transferred to the edge server until the image recognition result is received back at the mobile edge node.
 
