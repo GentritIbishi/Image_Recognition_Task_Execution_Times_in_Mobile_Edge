@@ -41,9 +41,19 @@ The initial phase of the analysis involves data preprocessing, dataset combinati
 
 ### Key Steps
 1. **Preprocessing**: This step involves imputing missing values, handling outliers, and extracting time-based features.
-2. **Feature Engineering**: Features such as the hour and day of the week are extracted from the timestamps.
-3. **Model Training**: A RandomForestRegressor is employed to predict execution times.
-4. **Evaluation**: The model's performance is gauged using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and the R2 Score.
+   
+     Combining datasets
+     ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/0a286185-3939-460a-bb85-1dfda65f5276)
+
+     Datasets before preprocessing:
+     ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/75657075-23bb-4adc-9210-e6659cd0d496)
+
+     Dataset after preprocessing:
+     ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/e4ff13f5-fa39-4d19-947c-050a2f36c171)
+
+3. **Feature Engineering**: Features such as the hour and day of the week are extracted from the timestamps.
+4. **Model Training**: A RandomForestRegressor is employed to predict execution times.
+5. **Evaluation**: The model's performance is gauged using metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and the R2 Score.
 
 ## Usage
 
