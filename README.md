@@ -1,4 +1,4 @@
-# Image Recognition Task Execution Times in Mobile Edge Computing
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/f4eb142e-7c6d-4f32-989b-a856550c7a1d)# Image Recognition Task Execution Times in Mobile Edge Computing
 
 ## At the University of Pristina
 - **Faculty**: Electrical and Computer Engineering
@@ -45,6 +45,9 @@ The initial phase of the analysis involves data preprocessing, dataset combinati
      ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/75657075-23bb-4adc-9210-e6659cd0d496)
 
      ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/e4ff13f5-fa39-4d19-947c-050a2f36c171)
+
+     ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/851b88f8-3622-44ca-a204-b57c2c143959)
+
 
 3. **Feature Engineering**: Features such as the hour and day of the week are extracted from the timestamps.
 4. **Model Training**: A RandomForestRegressor is employed to predict execution times.
