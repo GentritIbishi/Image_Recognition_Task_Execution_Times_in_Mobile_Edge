@@ -81,4 +81,4 @@ python model_preparation.ipynb
 
 To expand on the analysis, several machine learning models can be leveraged:
 
-1. **For Execution Time Prediction and Server Performance Analysis**
+**For Execution Time Prediction and Server Performance Analysis**
