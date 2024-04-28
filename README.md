@@ -199,5 +199,7 @@ To initiate the model preparation and training process, execute:
 
 ```bash
 python model_preparation.ipynb
+python trainingModelRegressionAlgorithms.ipynb
+python trainingModelClassificationAlgorithms.ipynb
 ```
 
