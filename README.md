@@ -63,6 +63,15 @@ The initial phase of the analysis involves data preprocessing, dataset combinati
 
 ## Phase II: Analysis and evaluation
 
+During training, the model learns patterns on the data related to the target variable. It is therefore essential to analyze and compare the performance of the model against other algorithms to determine if further additional optimizations are needed. Different splits of test and training data will be analyzed to evaluate performance using two methods:
+
+### Regression
+ Through MSE and R2 Score metrics.
+
+### Classification
+ Through Accuracy, F1-score, Recall and Precision metrics.
+
+
 ## Usage
 
 To replicate this analysis or apply the methodology to similar datasets, ensure the following libraries are installed:
