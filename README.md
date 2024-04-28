@@ -61,6 +61,8 @@ The initial phase of the analysis involves data preprocessing, dataset combinati
    
    ![Evaluation Results](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/blob/master/assets/evaluation_results.png)
 
+## Phase II: Analysis and evaluation
+
 ## Usage
 
 To replicate this analysis or apply the methodology to similar datasets, ensure the following libraries are installed:
