@@ -161,7 +161,9 @@ Random Forest handles complex, non-linear data well and is robust against overfi
 
 After we added a function which generates 15 thousand new lines completely random:
 
-#Function Image
+### Function for generating 15K+ lines random
+
+Function Image here
 
 We retrained the model for both regression and classification methods and obtained these results:
 
@@ -221,6 +223,10 @@ The ratio of test and training data is 0.4 to 0.6
 
 IMAGE
 
+## After all results - Decision
+
+After analyzing all the results, we saw that classification with more data performs better than regression, so we decided to use classification for prediction, since it is more accurate, with a larger amount of data.
+
 ## Usage
 
 To replicate this analysis or apply the methodology to similar datasets, ensure the following libraries are installed:
@@ -235,5 +241,7 @@ To initiate the model preparation and training process, execute:
 python model_preparation.ipynb --> To see how model is preparing by doing preprocessing steps removing outliers by IQR method, impute missing value with median.
 python trainingModelRegressionAlgorithms.ipynb --> To see how is performing Regression Model in a couple of algorithms to predict time excetion.
 python trainingModelClassificationAlgorithms.ipynb --> To see how is performing Classification Model in a couple of algorithms to predict time excetion.
+python retraining_classification.ipynb --> To see how is performing Classification Model in a couple of algorithms with up to 15K+ lines to predict time excetion.
+python retraining_regression.ipynb --> To see how is performing Regression Model in a couple of algorithms with up to 15K+ lines to predict time excetion.
 ```
 
