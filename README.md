@@ -157,6 +157,70 @@ Predicts exact values (eg, execution time in seconds). This is more accurate and
 
 Random Forest handles complex, non-linear data well and is robust against overfitting, making it reliable even with large or complex datasets. It's also good at determining which features are most important for predictions.
 
+## Phase III - Analysis and evaluation (Retraining) & Application of ML tools
+
+After we added a function which generates 15 thousand new lines completely random:
+
+#Function Image
+
+We retrained the model for both regression and classification methods and obtained these results:
+
+### Regression
+Through MSE and R2 Score metrics.
+The types of algorithms we will analyze Linear Regression, Random Forest Regressor and Ridge Regression.
+ 
+IMAGE
+
+### Results for Regression:
+---
+#### Case I:
+The ratio of test and training data is 0.1 to 0.9
+
+IMAGE
+
+#### Case II:
+The ratio of test and training data is 0.2 to 0.8
+
+IMAGE
+
+#### Case III:
+The ratio of test and training data is 0.3 to 0.7
+
+IMAGE
+
+#### Case IV:
+The ratio of test and training data is 0.4 to 0.6
+
+IMAGE
+
+### Classification
+Through Accuracy, F1-score, Recall and Precision metrics.
+The types of algorithms we will analyze Logistic Regression, Decision Tree, Random Forest, SVM, KNN and Naive Bayes.
+
+IMAGE
+
+### Results for Classification:
+---
+#### Case I:
+The ratio of test and training data is 0.1 to 0.9
+
+IMAGE
+
+#### Case II:
+The ratio of test and training data is 0.2 to 0.8
+
+IMAGE
+
+#### Case III:
+The ratio of test and training data is 0.3 to 0.7
+
+IMAGE
+
+#### Case IV:
+The ratio of test and training data is 0.4 to 0.6
+
+IMAGE
+
 ## Usage
 
 To replicate this analysis or apply the methodology to similar datasets, ensure the following libraries are installed:
