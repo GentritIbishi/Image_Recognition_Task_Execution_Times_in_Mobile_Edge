@@ -163,7 +163,7 @@ After we added a function which generates 15 thousand new lines completely rando
 
 ### Function for generating 15K+ lines random
 
-Function Image here
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/4527c2a4-524b-4e3e-8a32-6ca9c94716a3)
 
 We retrained the model for both regression and classification methods and obtained these results:
 
@@ -178,54 +178,80 @@ IMAGE
 #### Case I:
 The ratio of test and training data is 0.1 to 0.9
 
-IMAGE
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/4b474c9c-6728-45d3-9912-3d8acbfe2c33)
 
 #### Case II:
 The ratio of test and training data is 0.2 to 0.8
 
-IMAGE
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/7d401455-21b7-491e-bd57-67068d5daa41)
 
 #### Case III:
 The ratio of test and training data is 0.3 to 0.7
 
-IMAGE
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/08e8614d-3329-4b1c-9cbe-1e8234428bba)
 
 #### Case IV:
 The ratio of test and training data is 0.4 to 0.6
 
-IMAGE
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/e13ee03a-cc61-4ef2-bdfa-b37b5a89e143)
+
+### Visualization
+
+Mean Squared Error by Model and Test Size
+
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/225babf5-bf30-4ea7-be9f-c5e6106ac350)
+
+R-squared by Model and Test size
+
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/d1530932-7ad0-4b74-b416-40a918f3d948)
 
 ### Classification
 Through Accuracy, F1-score, Recall and Precision metrics.
 The types of algorithms we will analyze Logistic Regression, Decision Tree, Random Forest, SVM, KNN and Naive Bayes.
-
-IMAGE
 
 ### Results for Classification:
 ---
 #### Case I:
 The ratio of test and training data is 0.1 to 0.9
 
-IMAGE
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/6485c542-651d-4e1c-98c7-5137d58f7627)
 
 #### Case II:
 The ratio of test and training data is 0.2 to 0.8
 
-IMAGE
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/f6e5f88d-73c7-4c0a-ae1f-a3f19269c163)
 
 #### Case III:
 The ratio of test and training data is 0.3 to 0.7
 
-IMAGE
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/0c4a30ac-bb45-44d0-8634-5bd2a0a2317b)
 
 #### Case IV:
 The ratio of test and training data is 0.4 to 0.6
 
-IMAGE
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/78d233a0-fd05-4a8f-ba14-d4cef28cdc5c)
+
+### Visualization
+
+Accuracy by Test Size
+
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/ad668f8f-118e-4c79-bb4c-031931660a8d)
+
+F1 Score by Test Size
+
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/65a17e29-c624-419c-8690-e53cd7978343)
+
+Precision by Test Size
+
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/e1778a1b-2629-4b93-80a3-a0a2483ce5bc)
+
+Recall by Test Size
+
+![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/201c172e-2b05-49f7-9fd8-35517369adba)
 
 ## After all results - Decision
 
-After analyzing all the results, we saw that classification with more data performs better than regression, so we decided to use classification for prediction, since it is more accurate, with a larger amount of data.
+After analyzing all the results we saw that classification with more data performs better than regression, so we decided to use classification for prediction, since it is more accurate, with a larger amount of data.
 
 ## Usage
 
