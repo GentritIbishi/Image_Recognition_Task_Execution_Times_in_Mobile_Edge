@@ -239,9 +239,9 @@ Recall by Test Size
 
 ![image](https://github.com/GentritIbishi/Image_Recognition_Task_Execution_Times_in_Mobile_Edge/assets/44057937/201c172e-2b05-49f7-9fd8-35517369adba)
 
-## After all results - Decision
+## After all results - We decided to use Random Forest
 
-After analyzing all the results we saw that classification with more data performs better than regression, so we decided to use classification for prediction, since it is more accurate, with a larger amount of data.
+After analyzing all the results, we observed that classification with more data performs better than regression. Consequently, we decided to use classification for prediction. Among the evaluated algorithms—Logistic Regression, Decision Tree, Random Forest, SVM, and Naive Bayes—Random Forest consistently demonstrated higher accuracy and reliability with larger datasets. Therefore, for our predictive tasks, we have selected Random Forest due to its superior performance and robustness.
 
 ## Usage
 
